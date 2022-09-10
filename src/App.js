@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-
       <Carosuel />
       <hr></hr>
       <Discription showPages={showPages} setShowPages={setShowPages} />
