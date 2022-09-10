@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hotelTemplate/static/css/main.ad330f7a.css",
-    "main.js": "/hotelTemplate/static/js/main.65e32b39.js",
-    "static/js/787.d3befce1.chunk.js": "/hotelTemplate/static/js/787.d3befce1.chunk.js",
-    "index.html": "/hotelTemplate/index.html",
-    "main.ad330f7a.css.map": "/hotelTemplate/static/css/main.ad330f7a.css.map",
-    "main.65e32b39.js.map": "/hotelTemplate/static/js/main.65e32b39.js.map",
-    "787.d3befce1.chunk.js.map": "/hotelTemplate/static/js/787.d3befce1.chunk.js.map"
+    "main.css": "./static/css/main.ad330f7a.css",
+    "main.js": "./static/js/main.71da7716.js",
+    "static/js/787.d3befce1.chunk.js": "./static/js/787.d3befce1.chunk.js",
+    "index.html": "./index.html",
+    "main.ad330f7a.css.map": "./static/css/main.ad330f7a.css.map",
+    "main.71da7716.js.map": "./static/js/main.71da7716.js.map",
+    "787.d3befce1.chunk.js.map": "./static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad330f7a.css",
-    "static/js/main.65e32b39.js"
+    "static/js/main.71da7716.js"
   ]
 }
