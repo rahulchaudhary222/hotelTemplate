@@ -1,0 +1,220 @@
+$size-width: 500px;
+$size-height: 300px;
+
+.carousel-wrapper {
+  width: $size-width * 1.3;
+  height: $size-height * 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 20px;
+}
+
+.carousel-container {
+  width: $size-width;
+  height: $size-height;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  width: $size-width * 3;
+  animation: sliding 12s infinite;
+  div {
+    width: $size-width;
+    height: $size-height;
+    background-size: cover;
+    background-position: center;
+  }
+  &:hover {
+    animation-play-state: paused;
+  }
+  .image-one {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0f/a0/7f/64/hotel-exterior-view.jpg");
+  }
+  .image-two {
+    background-image: url("https://static.toiimg.com/photo/msid-67274593,width-96,height-65.cms");
+  }
+  .image-three {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ8V5KV4HNvbX2aJplsZvEX2dOUros3-20LA&usqp=CAU");
+  }
+}
+
+@keyframes sliding {
+  30% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(-$size-width);
+  }
+  65% {
+    transform: translateX(-$size-width);
+  }
+  70% {
+    transform: translateX(-$size-width * 2);
+  }
+  98% {
+    transform: translateX(-$size-width * 2);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+// @media screen and (max-width: 768px) {
+//   $size-width: 240px;
+//   $size-height: 150px;
+//   .carousel-wrapper {
+//     width: $size-width * 1.3;
+//     height: $size-height * 1.4;
+//   }
+
+//   .carousel-container {
+//     width: $size-width;
+//     height: $size-height;
+//   }
+
+//   .carousel {
+//     width: $size-width * 3;
+//     > div {
+//       width: $size-width;
+//       height: $size-height;
+//     }
+//   }
+
+//   @keyframes sliding {
+//     30% {
+//       transform: translateX(0);
+//     }
+//     35% {
+//       transform: translateX(-$size-width);
+//     }
+//     65% {
+//       transform: translateX(-$size-width);
+//     }
+//     70% {
+//       transform: translateX(-$size-width * 2);
+//     }
+//     98% {
+//       transform: translateX(-$size-width * 2);
+//     }
+//     100% {
+//       transform: translateX(0);
+//     }
+//   }
+// }
+$size-width: 500px;
+$size-height: 300px;
+
+.carousel-wrapper1 {
+  width: $size-width * 1.3;
+  height: $size-height * 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 20px;
+}
+
+.carousel-container1 {
+  width: $size-width;
+  height: $size-height;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel1 {
+  display: flex;
+  width: $size-width * 3;
+  animation: sliding 12s infinite;
+  div {
+    width: $size-width;
+    height: $size-height;
+    background-size: cover;
+    background-position: center;
+  }
+  &:hover {
+    animation-play-state: paused;
+  }
+  .image-one1 {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/1a/4b/e7/5c/hotel-inside-view-from.jpg");
+  }
+  .image-two1 {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/09/b3/aa/de/utopia-resorts-manali.jpg");
+  }
+  .image-three1 {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/04/41/19/a8/jaipur-palace-hotel.jpg");
+  }
+}
+
+@keyframes sliding {
+  30% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(-$size-width);
+  }
+  65% {
+    transform: translateX(-$size-width);
+  }
+  70% {
+    transform: translateX(-$size-width * 2);
+  }
+  98% {
+    transform: translateX(-$size-width * 2);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+// @media screen and (max-width: 768px) {
+//   $size-width: 240px;
+//   $size-height: 150px;
+//   .carousel-wrapper {
+//     width: $size-width * 1.3;
+//     height: $size-height * 1.4;
+//   }
+
+//   .carousel-container1 {
+//     width: $size-width;
+//     height: $size-height;
+//   }
+
+//   .carousel1 {
+//     width: $size-width * 3;
+//     > div {
+//       width: $size-width;
+//       height: $size-height;
+//     }
+//   }
+
+//   @keyframes sliding {
+//     30% {
+//       transform: translateX(0);
+//     }
+//     35% {
+//       transform: translateX(-$size-width);
+//     }
+//     65% {
+//       transform: translateX(-$size-width);
+//     }
+//     70% {
+//       transform: translateX(-$size-width * 2);
+//     }
+//     98% {
+//       transform: translateX(-$size-width * 2);
+//     }
+//     100% {
+//       transform: translateX(0);
+//     }
+//   }
+// }
+.carol {
+  justify-content: space-around;
+
+  display: flex;
+  flex-wrap: wrap;
+}

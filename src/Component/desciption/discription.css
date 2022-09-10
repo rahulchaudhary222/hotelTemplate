@@ -1,0 +1,11 @@
+.discrip ul {
+  justify-content: space-around;
+  display: flex;
+}
+.discrip h2:hover {
+  cursor: pointer;
+  color: brown;
+}
+hr {
+  width: 95vw;
+}

@@ -1,0 +1,52 @@
+.navs {
+  display: flex;
+}
+.navs-left {
+  width: 70%;
+  display: flex;
+}
+.navs-left h1 {
+  font-size: 50px;
+  margin-left: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navs-right {
+  width: 30%;
+}
+.telephone {
+  height: 50px;
+  margin-bottom: 0px;
+  display: flex;
+}
+.phone {
+  height: 50px;
+  margin-top: 0px;
+  display: flex;
+}
+.address {
+  height: 50px;
+  margin-top: 0px;
+  display: flex;
+}
+.LOGO {
+  width: 200px;
+  height: 120px;
+  margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .navs-right {
+    width: 100%;
+    display: block;
+  }
+  .navs {
+    display: block;
+  }
+  .LOGO {
+    width: 100px;
+    height: 60px;
+  }
+  .navs-left h1 {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+}

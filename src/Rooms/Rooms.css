@@ -1,0 +1,52 @@
+.room h1 {
+  color: red;
+}
+.room {
+  width: 60%;
+  margin: 10px;
+}
+.first-room {
+  height: max-content;
+  display: flex;
+}
+.title-first {
+  font-size: larger;
+  width: 70%;
+}
+.pic-first {
+  width: 30%;
+}
+.pic-first img {
+  width: 100%;
+  height: 200px;
+}
+.second-room {
+  height: max-content;
+  display: flex;
+}
+.title-second {
+  font-size: larger;
+  width: 70%;
+}
+.pic-second {
+  width: 30%;
+}
+.pic-second img {
+  width: 100%;
+  height: 200px;
+}
+.third-room {
+  height: max-content;
+  display: flex;
+}
+.title-third {
+  font-size: larger;
+  width: 70%;
+}
+.pic-third {
+  width: 30%;
+}
+.pic-third img {
+  width: 100%;
+  height: 200px;
+}

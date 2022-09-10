@@ -1,0 +1,42 @@
+.first img {
+  margin-top: 10px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+  height: 200px;
+  width: 400px;
+}
+.first {
+  flex-wrap: wrap;
+  display: flex;
+}
+.second {
+  margin-top: 10px;
+  display: flex;
+}
+.second img {
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+  height: 200px;
+  width: 400px;
+}
+
+.third {
+  margin-top: 10px;
+  display: flex;
+}
+.third img {
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+  height: 200px;
+  width: 400px;
+}
+.forth {
+  margin-top: 10px;
+  display: flex;
+}
+.forth img {
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+  height: 200px;
+  width: 400px;
+}

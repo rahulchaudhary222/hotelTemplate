@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./Component/navbar/navbar";
+import Carosuel from "./Component/carosuel/carosuel";
+import Contain from "./Component/containent/contain";
+import Footer from "./Component/footter/footter";
+import { useState } from "react";
+import Discription from "./Component/desciption/discription";
 
 function App() {
+  const [showPages, setShowPages] = useState("home");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+
+      <Carosuel />
+      <hr></hr>
+      <Discription showPages={showPages} setShowPages={setShowPages} />
+      <Contain showPages={showPages} setShowPages={setShowPages} />
+      <Footer />
     </div>
   );
 }
