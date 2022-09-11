@@ -1,7 +1,27 @@
+@media only screen and (max-width: 600px) {
+  .contain {
+    flex-wrap: wrap;
+    display: block;
+  }
+  .reservation {
+    display: block;
+    width: 100%;
+  }
+  .about-hotel {
+    display: block;
+    width: 100%;
+  }
+  .places {
+    display: block;
+    width: 100%;
+  }
+}
+
 .contain {
   margin-top: 20px;
   display: flex;
 }
+
 .reservation {
   width: 22%;
   background-color: bisque;

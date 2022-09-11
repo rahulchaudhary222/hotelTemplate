@@ -10,7 +10,7 @@ const Navbar = () => {
             src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kh...aGqRVGnB...OwXs1M3EMoAJtliYvhfRt8Pg+"
             className="LOGO"
           />
-          <h1>HOTEL M.S PALACE</h1>
+          <h1>HOTEL M.S PALACE AGRA</h1>
         </div>
         <div className="navs-right">
           <div className="telephone">

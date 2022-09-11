@@ -105,8 +105,19 @@ $size-height: 300px;
 //     }
 //   }
 // }
-$size-width: 500px;
-$size-height: 300px;
+@media screen and (min-width: 600px) {
+  $size-width: 250px;
+  $size-height: 250px;
+  .carousel-wrapper1 {
+    width: $size-width * 0.5;
+    height: $size-height * 0.5;
+  }
+  .carousel-container1 {
+    margin: 0px;
+    width: $size-width;
+    height: $size-height;
+  }
+}
 
 .carousel-wrapper1 {
   width: $size-width * 1.3;
