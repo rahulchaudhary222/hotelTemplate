@@ -70,7 +70,7 @@ const Rooms = () => {
           </div>
           <div className="pic-third">
             <img
-              src="https://www.atletcentury.com/wp-content/uploads/sites/226/2015/10/Copy-of-IMG_6731.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4EX3QyueNpTE2r7vHXbsxtqFI2LhF67McunzO7E9Y&s"
               alt="load"
             />
           </div>

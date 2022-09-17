@@ -4,16 +4,13 @@
     display: block;
   }
   .reservation {
-    display: block;
-    width: 100%;
+    width: 100vw;
   }
   .about-hotel {
-    display: block;
-    width: 100%;
+    width: 100vw;
   }
   .places {
-    display: block;
-    width: 100%;
+    width: 100vw;
   }
 }
 
