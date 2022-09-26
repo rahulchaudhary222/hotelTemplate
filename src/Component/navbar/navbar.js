@@ -33,12 +33,12 @@ const Navbar = () => {
               style={{ width: "50px", padding: "10px", height: "50px" }}
             />
             <h3 style={{ color: "red" }}>
-              Eit ki Mandi Bodla,Sikandra Road Agra
+              Eit ki Mandi Bodla , Sikandra Road Agra
             </h3>
           </div>
         </div>
       </div>
-      <hr style={{ width: "95vw" }}></hr>
+      <hr></hr>
     </>
   );
 };

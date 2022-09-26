@@ -4,6 +4,9 @@
 
     flex-wrap: wrap;
   }
+  .discrip li {
+    margin-right: 10px;
+  }
   hr {
     width: 100vw;
   }

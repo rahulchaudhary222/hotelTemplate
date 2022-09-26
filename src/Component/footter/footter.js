@@ -35,9 +35,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="top-foot">
-          <h2 style={{ padding: "15px 5px 15px 5px", color: "white" }}>
-            FOLLOW US ON :
-          </h2>
+          <h2>FOLLOW US ON :</h2>
           <a href="https://www.facebook.com/">
             <button className="btn-foot"></button>
           </a>
@@ -50,15 +48,15 @@ const Footer = () => {
           <a href="https://twitter.com/i/flow/login">
             <button className="btn-foot3"></button>
           </a>
-          <h2 style={{ padding: "15px 5px 15px 5px", color: "white" }}>
-            DOWNLOAD ON THE :
-          </h2>
-          <a href="https://play.google.com/store/apps">
-            <button className="btn1-play"></button>
-          </a>
-          <a href="https://www.apple.com/in/app-store/">
-            <button className="btn1-play1"></button>
-          </a>
+          <h2>DOWNLOAD ON THE :</h2>
+          <div className="img-foot">
+            <a href="https://play.google.com/store/apps">
+              <button className="btn1-play"></button>
+            </a>
+            <a href="https://www.apple.com/in/app-store/">
+              <button className="btn1-play1"></button>
+            </a>
+          </div>
         </div>
       </div>
     </>

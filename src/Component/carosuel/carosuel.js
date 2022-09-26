@@ -24,7 +24,7 @@ const Carosuel = () => {
           </div>
         </div>
 
-        <div className="carosuel1">
+        <div1 className="carosuel1">
           <h2 style={{ textAlign: "center" }}>INSIDE VIEW</h2>
           <div class="carousel-wrapper1">
             <div class="carousel-container1">
@@ -35,7 +35,7 @@ const Carosuel = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div1>
       </div>
     </>
   );

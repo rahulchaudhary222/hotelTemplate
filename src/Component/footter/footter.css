@@ -1,9 +1,19 @@
 @media only screen and (max-width: 600px) {
   .foot {
-    height: 500px;
+    height: 800px;
+  }
+  .top-foot h2 {
+    display: block;
+    width: 100vw;
+  }
+  .img-foot {
+    display: flex;
   }
 }
-
+.top-foot h2 {
+  padding: 15px 5px 15px 5px;
+  color: white;
+}
 .btn-foot {
   border-radius: 50px;
   border: none;
@@ -53,9 +63,9 @@
   background-color: black;
 }
 .btn1-play {
-  margin: 5px 15px 5px 15px;
-  width: 150px;
-  height: 100px;
+  margin: 5px 25px 5px 25px;
+  width: 100px;
+  height: 95px;
   background-image: url("https://cdn.dribbble.com/users/5461590/screenshots/15854195/google_play_store_4x.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,9 +73,10 @@
   color: black;
 }
 .btn1-play1 {
-  margin: 5px 15px 5px 15px;
-  width: 150px;
-  height: 98px;
+  margin: 5px 25px 5px 25px;
+  width: 100px;
+  height: 95px;
+  text-align: center;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-OLf5Ez6ybhAI8DzjzLhKVeiv8kK5cZ2Crg&usqp=CAU");
   background-repeat: no-repeat;
   background-size: cover;

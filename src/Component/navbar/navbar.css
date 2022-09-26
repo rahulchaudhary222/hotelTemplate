@@ -5,6 +5,9 @@
   width: 70%;
   display: flex;
 }
+hr {
+  width: 90vw;
+}
 .navs-left h1 {
   font-size: 50px;
   margin-left: 40px;
@@ -34,19 +37,26 @@
   margin: 10px;
 }
 @media only screen and (max-width: 600px) {
-  .navs-right {
-    width: 100%;
-    display: block;
-  }
   .navs {
     display: block;
   }
+  .navs-right {
+    width: 60%;
+  }
   .LOGO {
+    margin-top: 60px;
     width: 100px;
     height: 60px;
   }
+
   .navs-left h1 {
     font-size: 30px;
     margin-left: 10px;
+  }
+  .navs-right h3 {
+    font-size: 15px;
+  }
+  hr {
+    width: 90vw;
   }
 }
